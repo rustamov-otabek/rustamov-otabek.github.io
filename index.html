@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Otabek Rustamov — Personal Portfolio</title>
+<meta name="description" content="Personal portfolio of Otabek Rustamov — Economics student, developer and creator building intelligent systems and digital projects.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⬡</text></svg>">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="nav"><div class="wrap row">
+  <div class="brand">OTABEK</div>
+  <div class="navlinks">
+    <a href="#about" data-i="nav.about">ABOUT</a>
+    <a href="#work" data-i="nav.work">WORK</a>
+    <a href="#capabilities" data-i="nav.cap">CAPABILITIES</a>
+    <a href="#experience" data-i="nav.exp">EXPERIENCE</a>
+    <a href="#contact" data-i="nav.contact">CONTACT</a>
+  </div>
+  <div class="navright">
+    <span><span class="status-dot"></span><span data-i="nav.online">ONLINE</span></span>
+    <div class="langtoggle" id="langToggle" role="group" aria-label="Language">
+      <span class="active" data-lang="en">EN</span><span data-lang="ru">RU</span>
+    </div>
+  </div>
+</div></nav>
+
+<section class="hero">
+  <canvas id="heroCanvas"></canvas>
+  <div class="meta-corner meta-tl"><b data-i="hero.sys">SYSTEM</b> / <span data-i="hero.sysv">PERSONAL PORTFOLIO</span><br><b data-i="hero.status">STATUS</b> / <span data-i="hero.statusv">ONLINE</span></div>
+  <div class="meta-corner meta-tr"><b data-i="hero.core">CREATIVE CORE</b> / <span data-i="hero.corev">ACTIVE</span><br><b data-i="hero.loc">LOCATION</b> / <span data-i="hero.locv">UZBEKISTAN</span></div>
+  <div class="hero-inner wrap">
+    <div class="eyebrow" data-i="hero.eyebrow">PERSONAL PORTFOLIO</div>
+    <h1 class="title">OTABEK RUSTAMOV</h1>
+    <div class="subtitle" data-i="hero.subtitle">ECONOMICS STUDENT • DEVELOPER • CREATOR</div>
+    <p class="supporting" data-i="hero.supporting">I build intelligent systems, digital products and ideas that connect technology with real-world problems.</p>
+    <div class="hero-ctas">
+      <a href="#work" class="btn btn-primary" data-i="hero.cta1">EXPLORE MY WORK</a>
+      <a href="#contact" class="btn btn-secondary" data-i="hero.cta2">CONTACT</a>
+    </div>
+  </div>
+  <div class="scrollhint" data-i="hero.scroll">SCROLL TO EXPLORE</div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="section-label" data-i="about.label">ABOUT ME</div>
+      <div class="about-grid">
+        <div class="reveal reveal-left">
+          <div class="about-statement" data-i="about.statement">Economics by education. Technology by curiosity. Building by choice.</div>
+          <p class="about-body" data-i="about.body">Otabek Rustamov is an Economics student at Tashkent State University of Economics with professional experience in accounting and a growing focus on software, AI, automation and digital systems.</p>
+        </div>
+        <div class="profile-panel reveal reveal-right">
+          <div class="profile-title" data-i="about.profile">PROFILE</div>
+          <div class="profile-row"><span data-i="about.name">NAME</span><span>Otabek Rustamov</span></div>
+          <div class="profile-row"><span data-i="about.edu">EDUCATION</span><span>Tashkent State University of Economics</span></div>
+          <div class="profile-row"><span data-i="about.field">FIELD</span><span data-i="about.fieldv">Economics</span></div>
+          <div class="profile-row"><span data-i="about.exp">EXPERIENCE</span><span data-i="about.expv">2 years — Accounting</span></div>
+          <div class="profile-row"><span data-i="about.langs">LANGUAGES</span><span>Uzbek / Russian / English</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="section-label" data-i="work.label">SELECTED WORK</div>
+      <h2 class="section-title" data-i="work.title">Things I build, explore and turn into working systems.</h2>
+    </div>
+
+    <div class="project-card project-card-jarvis reveal reveal-left" style="margin-top:56px;">
+      <div class="project-viz" style="background:#0a0806;"><svg viewBox="0 0 200 200"><g fill="none" stroke="#ff9a3c" stroke-width="1">
+        <circle cx="100" cy="100" r="78" stroke-dasharray="4 6" opacity=".4"/>
+        <circle cx="100" cy="100" r="62" opacity=".6"/>
+        <circle cx="100" cy="100" r="62" stroke-dasharray="2 170" stroke-width="2.5"><animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="6s" repeatCount="indefinite"/></circle>
+        <circle cx="100" cy="100" r="44" opacity=".8"/>
+        <path d="M100 22 L100 38 M100 162 L100 178 M22 100 L38 100 M162 100 L178 100" opacity=".5"/>
+        <path d="M70 70 L80 60 M130 70 L120 60 M70 130 L80 140 M130 130 L120 140" opacity=".35"/>
+        <circle cx="100" cy="100" r="7" fill="#ff9a3c" stroke="none"><animate attributeName="opacity" values="1;.4;1" dur="2.2s" repeatCount="indefinite"/></circle>
+      </g></svg></div>
+      <div>
+        <div class="project-name">JARVIS</div>
+        <p class="project-desc" data-i="proj.jarvis.desc">A personal AI assistant I'm building — focused on local intelligence, automation, voice interaction and computer control.</p>
+        <div class="tags"><span class="tag" style="border-color:rgba(255,154,60,.4); color:#ff9a3c;">PYTHON</span><span class="tag" style="border-color:rgba(255,154,60,.4); color:#ff9a3c;">AI</span><span class="tag">AUTOMATION</span><span class="tag">VOICE</span><span class="tag">SYSTEMS</span></div>
+        <a href="https://t.me/kironixx" target="_blank" rel="noopener" class="project-link" style="color:#ff9a3c;" data-i="proj.link">FOLLOW PROGRESS →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal reveal-right">
+      <div class="project-viz"><svg viewBox="0 0 200 200"><g fill="none" stroke="#4fd7ff" stroke-width="1"><polygon points="100,25 170,65 170,135 100,175 30,135 30,65" opacity=".55"/><polygon points="100,55 145,80 145,120 100,145 55,120 55,80" opacity=".85"/><circle cx="100" cy="100" r="5" fill="#4fd7ff" stroke="none"/></g></svg></div>
+      <div>
+        <div class="project-name">NEXORA</div>
+        <p class="project-desc" data-i="proj.nexora.desc">An early-stage project I'm shaping — focused on intelligent digital experiences and innovative solutions.</p>
+        <div class="tags"><span class="tag">SYSTEMS</span><span class="tag">DIGITAL EXPERIENCE</span><span class="tag" style="border-color:var(--accent); color:var(--accent);" data-i="proj.status">IN ACTIVE DEVELOPMENT</span></div>
+        <a href="https://t.me/kironixx" target="_blank" rel="noopener" class="project-link" data-i="proj.link2">FOLLOW PROGRESS →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="capabilities">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="section-label" data-i="cap.label">CAPABILITIES</div>
+      <h2 class="section-title" data-i="cap.title">The tools and disciplines behind what I build.</h2>
+    </div>
+    <div class="skills-grid reveal" id="skillsGrid"></div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="wrap">
+    <div class="reveal">
+      <div class="section-label" data-i="exp.label">EXPERIENCE</div>
+      <div class="exp-line">
+        <div class="exp-years" data-i="exp.years">CURRENT</div>
+        <div>
+          <div class="exp-role" data-i="exp.role">CHIEF ACCOUNTANT — OILL SEVEN</div>
+          <div class="exp-desc" data-i="exp.desc">Professional accounting experience across multiple companies.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="small-cols reveal">
+      <div>
+        <div class="small-block-title" data-i="edu.label">EDUCATION</div>
+        <div class="edu-name">TASHKENT STATE UNIVERSITY OF ECONOMICS</div>
+        <div class="edu-field" data-i="edu.field">Economics</div>
+      </div>
+      <div>
+        <div class="small-block-title" data-i="lang.label">LANGUAGES</div>
+        <div class="lang-list">
+          <div class="lang-item"><span data-i="lang.uz">Uzbek</span><span data-i="lang.native">NATIVE</span></div>
+          <div class="lang-item"><span data-i="lang.ru">Russian</span><span data-i="lang.fluent">FLUENT</span></div>
+          <div class="lang-item"><span data-i="lang.en">English</span><span data-i="lang.fluent2">FLUENT</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="wrap reveal">
+    <div class="section-label" style="text-align:center" data-i="contact.label">LET'S CONNECT</div>
+    <div class="contact-title" data-i="contact.title">Have an idea, project or opportunity?</div>
+    <div class="contact-list">
+      <div class="contact-item"><div class="contact-label">TELEGRAM</div><div class="contact-value"><a href="https://t.me/kironixx" target="_blank" rel="noopener">@kironixx</a></div></div>
+      <div class="contact-item"><div class="contact-label">EMAIL</div><div class="contact-value"><a href="mailto:rustamov2318@gmail.com">rustamov2318@gmail.com</a></div></div>
+      <div class="contact-item"><div class="contact-label">GITHUB</div><div class="contact-value"><a href="https://github.com/rustamov-otabek" target="_blank" rel="noopener">rustamov-otabek</a></div></div>
+    </div>
+  </div>
+</section>
+
+<footer data-i="footer">© Otabek Rustamov</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
